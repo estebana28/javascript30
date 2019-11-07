@@ -1,0 +1,24 @@
+:root {
+    --monoback: #02020A;
+    --monofont: #E1E2EF;
+
+    --bluback: #3a506b;
+    --blufont: #6FFFE9;
+
+    --redback: #B80C09;
+    --redfont: #FFCF99;
+    }
+
+
+
+.btn {
+    width: 15vw;
+    height: 8vh;
+
+}
+
+
+body {
+    background-color: white;
+    color: black;
+}

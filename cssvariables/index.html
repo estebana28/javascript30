@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body id="changers">
+
+    <h1>Changing CSS Variables with a little of <span id="changers">JS</span></h1>
+
+    <h3>Pick a color combination</h3>
+
+    <button class="btn" onclick="monocromatic()">Mono</button>
+    <button class="btn" onclick="blues()">Blu</button>
+    <button class="btn" onclick="reds()">Reds</button>
+    
+    <h3>Or choose your own...</h3>
+    <div class="colors">
+        <label for="back">Background</label>
+        <input id="back" type="color" name="back" value="rgb(255, 255, 255)">
+        
+        <label for="font">FontColor</label>
+        <input id="font" type="color" name="font" value='#000'>
+    </div>    
+    
+
+
+    <script src="src/scripts.js"></script>
+</body>
+</html>
