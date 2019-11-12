@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Variables</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body id="changers">
+    <main class="container justify-content-center">
+        <h1>Changing CSS Variables with a little of <span id="changers">JS</span></h1>
 
-    <h1>Changing CSS Variables with a little of <span id="changers">JS</span></h1>
+        <h3>Pick a color combination</h3>
 
-    <h3>Pick a color combination</h3>
-
-    <button class="btn" onclick="monocromatic()">Mono</button>
-    <button class="btn" onclick="blues()">Blu</button>
-    <button class="btn" onclick="reds()">Reds</button>
-    
-    <h3>Or choose your own...</h3>
-    <div class="colors">
-        <label for="back">Background</label>
-        <input id="back" type="color" name="back" value="rgb(255, 255, 255)">
+        <button id="mono" class="" onclick="monocromatic()"></button>
+        <button id="blues" class="" onclick="blues()"></button>
+        <button id="reds" class="" onclick="reds()"></button>
         
-        <label for="font">FontColor</label>
-        <input id="font" type="color" name="font" value='#000'>
-    </div>    
-    
+        <h3>Or choose your own...</h3>
+        <div class="colors">
+            <label for="back">Background</label>
+            <input id="back" type="color" name="back" value="#ffffff">
+            
+            <label for="font">FontColor</label>
+            <input id="font" type="color" name="font" value="#000000">
+        </div>    
+    </main>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="src/scripts.js"></script>
 </body>
 </html>

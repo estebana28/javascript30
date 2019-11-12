@@ -1,24 +1,35 @@
 :root {
-    --monoback: #02020A;
-    --monofont: #E1E2EF;
-
-    --bluback: #3a506b;
-    --blufont: #6FFFE9;
-
-    --redback: #B80C09;
-    --redfont: #FFCF99;
+    --base: #ffffff;
+    --font: #000000;
     }
 
 
 
-.btn {
+button {
     width: 15vw;
     height: 8vh;
+    border-radius: 10px;
+}
 
+input {
+    padding: 0px;
 }
 
 
 body {
     background-color: white;
     color: black;
+    
+}
+
+#mono {
+    background: linear-gradient(90deg, #000000 50%, #ffffff 50%);
+}
+
+#blues {
+    background: linear-gradient(90deg, #2B59C3 50%, #A7E2E3 50%);
+}
+
+#reds {
+    background: linear-gradient(90deg, #92140C 50%, #FFCF99 50%);
 }
